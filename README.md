@@ -4,6 +4,7 @@ A responsive, original website for 2Tone Imagery Printing Company, covering DTF 
 
 - **Live preview:** https://frankbjj23.github.io/2tone-imagery/
 - **Business phone:** 201-210-4027, supplied by the owner of this project.
+- **Business email:** Twotoneimagery@gmail.com, supplied by the owner of this project.
 - **Source:** https://github.com/frankbjj23/2tone-imagery
 
 ## Features
@@ -39,7 +40,7 @@ The repository is public so the preview and code can be shared. Never add creden
 
 - Page copy, phone links, metadata and service markup: `index.html`.
 - Layout, responsive breakpoints and motion/contrast preferences: `styles.css`.
-- Project builder and optional verified business email: `SITE_CONTACT` in `app.js`. The blank email intentionally keeps email delivery hidden.
+- Project builder and verified business email: `SITE_CONTACT` in `app.js`. The Email brief action opens the visitor's email app; the visitor reviews and sends the message.
 - Logo and illustrative merchandise assets: `assets/`.
 - [Research and reference websites](docs/REFERENCES.md).
 
