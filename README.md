@@ -2,7 +2,7 @@
 
 A responsive, original website for 2Tone Imagery Printing Company, covering DTF transfers, silk screen printing, embroidery, UV stickers, vinyl graphics and banners.
 
-- **Live preview:** https://frankbjj23.github.io/2tone-imagery/
+- **Website:** https://2toneimagery.com/
 - **Business phone:** 201-210-4027, supplied by the owner of this project.
 - **Business email:** Twotoneimagery@gmail.com, supplied by the owner of this project.
 - **Source:** https://github.com/frankbjj23/2tone-imagery
@@ -32,7 +32,9 @@ node scripts/check-site.mjs
 
 ## Deployment
 
-GitHub Pages publishes the root of `main`. `.nojekyll` ensures direct static delivery. All local asset references are relative so the site works under the repository subpath. Canonical and social-sharing metadata use the Pages URL; update those if a custom domain is added.
+GitHub Pages publishes the root of `main`. `.nojekyll` ensures direct static delivery. The root `CNAME` file declares `2toneimagery.com` as the custom domain. Canonical and social-sharing metadata use `https://2toneimagery.com/`. Local asset references remain relative so they work at the custom-domain root and in a local preview.
+
+Keep the GitHub Pages custom-domain setting and the domain's DNS records aligned with the `CNAME` file. After changing hosting or DNS, verify the apex domain, the `www` redirect, and HTTPS before considering the deployment complete.
 
 The repository is public so the preview and code can be shared. Never add credentials, private customer artwork or customer briefs to the repository.
 
